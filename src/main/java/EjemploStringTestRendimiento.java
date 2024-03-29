@@ -28,6 +28,7 @@ public class EjemploStringTestRendimiento {
         };
         fin = System.currentTimeMillis();
         System.out.println("StringBuilder: " + (fin - inicio) + " ms");
-
+        String sbStr = sb.toString(); // Convertir el StringBuilder a String
+        System.out.println("sb.toString() = " + sbStr); // Imprimir el resultado
     }
 }
